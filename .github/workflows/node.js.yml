@@ -20,7 +20,8 @@ jobs:
         
     - name: cd
       run: cd WebstormProjects/ci-front/
-      
+    - name: print
+      run: pwd
     - name: install
       run: npm install
       
