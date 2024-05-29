@@ -19,7 +19,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
         
     - name: cd
-      run: cd WebstormProjects/ci-front/
+      run: cd WebstormProjects
+    - name: cd
+      run: cd ci-front
     - name: print
       run: pwd
     - name: install
